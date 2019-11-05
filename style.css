@@ -1,0 +1,13 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+  width: 132px;
+  height: auto;
+  fill: white;
+}
+
+.img-container a img {
+  width: 100%;
+}
