@@ -13,6 +13,8 @@
 .survey div a img,
 .sponsored div a img,
 .latest-news div a img,
-.magazine-section-top div a img {
+.magazine-section-top div a img,
+.magazine-section-bottom div a img,
+.editors-pick-section div a img {
   width: 100%;
 }
