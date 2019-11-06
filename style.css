@@ -20,3 +20,9 @@
 .topics-section > div > div > a img {
   width: 100%;
 }
+
+.footer-brand {
+  width: 300px;
+  height: auto;
+  fill: #f72210;
+}
