@@ -21,8 +21,8 @@
   width: 100%;
 }
 
-.footer-brand {
-  width: 300px;
+.footer-brand svg {
+  width: 200px;
   height: auto;
   fill: #f72210;
 }
