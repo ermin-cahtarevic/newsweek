@@ -85,13 +85,18 @@ button.bars-icon-button .bars-icon {
   width: 100%;
 }
 
+/* top story, more stories, featured stories - title  */
+
 .top-story > div,
-.more-stories > div {
+.more-stories > div,
+.featured-stories-title {
   color: rgba(3,3,3,.4);
   font-size: 16px;
   font-weight: 700;
   padding: 15px 0 5px;
 }
+
+/* top story */
 
 .img-category {
   position: relative;
@@ -127,9 +132,12 @@ button.bars-icon-button .bars-icon {
 }
 
 .summary-text {
+  color: #333;
   font-size: 13px;
   line-height: 18px;
 }
+
+/* more stories */ 
 
 .more-stories article {
   border-top: 1px solid #ddd;
@@ -153,6 +161,115 @@ button.bars-icon-button .bars-icon {
   color: black;
 }
 
+/* culture and travel */
+
+.culture-travel > div {
+  padding-top: 20px;
+}
+
+.culture-travel-title a {
+  color: rgba(3,3,3,.5);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 10px 0;
+}
+
+.culture-travel-title a:hover {
+  color: rgba(3,3,3,.5);
+  text-decoration-line: none;
+}
+
+.culture-travel div a h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 12px 10px 5px;
+  color: rgb(39, 39, 39);
+}
+
+.culture-travel div a:hover {
+  text-decoration-line: none;
+}
+
+.c-t-text {
+  color: rgba(39, 39, 39, 0.5);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 0 10px 10px;
+}
+
+.c-t-category {
+  background-color: #c2d4d7;
+  color: #272727;
+  padding: 3px 5px;
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.c-t-category:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+}
+
+/* featured stories */
+
+.featured-stories > div:nth-child(2) {
+  padding-top: 0;
+}
+
+.featured-stories > div {
+  padding-top: 20px;
+}
+
+.featured-stories div a h3 {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.featured-stories div a {
+  text-decoration-color: #f72210;
+}
+
+/* survey section */
+
+.survey {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.first-a-tag div {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #f72210;
+}
+
+.survey div .first-a-tag {
+  text-decoration-line: none;
+}
+
+.survey a h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.survey div a {
+  color: black;
+  text-decoration-color: #f72210;
+}
+
+/* sponsored */
 
 /* FOOTER SECTION */
 
