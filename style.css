@@ -424,15 +424,62 @@ div.newsletter {
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   float: left;
+  margin: 5px 10px 0 0;
 }
 
 .newsletter-first-container {
-  height: 40px;
   font-size: 19px;
   font-weight: 700;
   line-height: 19px;
   color: #333;
   padding: 0 20px;
+}
+
+.newsletter-second-container {
+  min-height: 60px;
+  padding: 0 20px;
+}
+
+.newsletter-sign-up div {
+  background-color: #666;
+  display: inline-block;
+  height: 38px;
+  padding: 10px;
+  text-decoration-line: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 15px;
+}
+
+.newsletter-sign-up div:hover {
+  background-color: #999;
+  color: white;
+  text-decoration: none;
+}
+
+.newsletter-sign-up div::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+}
+
+.newsletter-update div {
+  height: 18px;
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  margin-top: 10px;
+}
+
+.newsletter-update:hover {
+  text-decoration-line: none;
+  color: #333;
 }
 
 /* FOOTER SECTION */
