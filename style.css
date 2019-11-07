@@ -482,6 +482,105 @@ div.newsletter {
   color: #333;
 }
 
+/* magazine section */
+
+/* top magazine section */
+
+.magazine-section-title {
+  margin-bottom: 15px;
+}
+
+.magazine-section-title div {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 19px;
+  color: #333;
+}
+
+.latest-issue {
+  margin: 40px 0;
+}
+
+.latest-img-container {
+  position: relative;
+}
+
+.date-issue {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(255,255,255,.9);
+  color: #f72210;
+  padding: 10px;
+  z-index: 1;
+}
+
+.magazine-article {
+  margin-top: 25px;
+}
+
+.magazine-article div > div,
+.magazine-article div a div {
+display: inline-block;
+}
+
+.magazine-article div > div {
+  background-color: #f72210;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: white;
+  padding: 0 8px;
+  margin: 10px 5px 10px 0;
+}
+
+.magazine-article div a div {
+  color: #f72210;
+}
+
+.magazine-article > a div {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: black;
+}
+
+.magazine-article > a:hover {
+  text-decoration-color: #f72210;
+}
+
+.last-magazine-article {
+  margin-top: 25px;
+}
+
+.last-img-container {
+  position: relative;
+}
+
+.last-magazine-article .in-focus {
+  position: absolute;
+  bottom: 46px;
+  left: 0;
+  background-color: #f72210;
+  padding: 0 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.last-magazine-article a.last-magazine-article-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: black;
+  text-decoration-color: #f72210;
+}
+
+.last-magazine-article a.last-magazine-article-title div {
+  padding: 15px 0;
+}
+
 /* FOOTER SECTION */
 
 .footer-brand svg {
