@@ -683,6 +683,82 @@ display: inline-block;
   text-decoration-color: #f72210;
 }
 
+/* topics section */
+
+.topics-section .topics-section-title a {
+  color: #f72210;
+  text-decoration-line: none;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.topics-section-title {
+  padding: 25px 0 11px;
+  border-top: 1px solid #ddd;
+  margin-top: 25px;
+}
+
+.topics-section-us > div > a h3,
+.topics-section-world > div > a h3,
+.topics-section-business > div > a h3,
+.topics-section-tech > div > a h3,
+.topics-section-culture > div > a h3,
+.topics-section-sports > div > a h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  color: black;
+  margin: 10px 0 25px;
+}
+
+.topics-section div a:hover {
+  text-decoration-color: #f72210;
+}
+
+.topics-section-us div div,
+.topics-section-world div div,
+.topics-section-business div div,
+.topics-section-tech div div,
+.topics-section-culture div div,
+.topics-section-sports div div {
+  height: 175px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.topics-section-us div div.topics-section-last-article,
+.topics-section-world div div.topics-section-last-article,
+.topics-section-business div div.topics-section-last-article,
+.topics-section-tech div div.topics-section-last-article,
+.topics-section-culture div div.topics-section-last-article,
+.topics-section-sports div div.topics-section-last-article {
+  border-bottom: none;
+}
+
+.topics-section-us div div a img,
+.topics-section-world div div a img,
+.topics-section-business div div a img,
+.topics-section-tech div div a img,
+.topics-section-culture div div a img,
+.topics-section-sports div div a img {
+  max-width: 258px;
+  float: left;
+  padding-right: 15px;
+}
+
+.topics-section-us div div a h3,
+.topics-section-world div div a h3,
+.topics-section-business div div a h3,
+.topics-section-tech div div a h3,
+.topics-section-culture div div a h3,
+.topics-section-sports div div a h3 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+  color: black;
+}
+
 /* FOOTER SECTION */
 
 .footer-brand svg {
