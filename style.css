@@ -1,16 +1,77 @@
 main {
   padding-top: 56px;
 }
+
+/* HEADER SECTION */ 
+
+/* navbar section */
+
+.nav-styling {
+  background-color: #f72210;
+  height: 50px;
+}
+
+.date {
+  font-size: 16px;
+  line-height: 34px;
+  color: white;
+  transform: scaleX(0.85);
+}
+
 .navbar-brand {
   width: 132px;
   height: auto;
   fill: white;
 }
 
-.img-container a img {
-  width: 100%;
+.nav-right-wrapper a {
+  height: 26px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 900;
+  padding-top: 6px;
+  line-height: 14px;
+  transform: scaleX(0.85);
 }
 
+.nav-right-wrapper .transparent {
+  color: white;
+  text-decoration-line: none;
+}
+
+.nav-right-wrapper .white {
+  background-color: white;
+  color: #f72210;
+  text-decoration-line: none;
+  padding: 6px 10px;
+}
+.white div {
+  display: inline-block;
+}
+
+.white svg {
+  margin-left: 5px;
+  fill: #f72210;
+  height: 14px;
+  padding-bottom: 2px;
+}
+
+.nav-right-wrapper button.bars-icon-button {
+  border: none;
+}
+
+.nav-right-wrapper button.bars-icon-button:focus {
+  outline: none;
+}
+
+button.bars-icon-button .bars-icon {
+  color: #fb9a94;
+  font-size: 30px;
+}
+
+/* MAIN SECTION */
+
+.img-container a img,
 .culture-travel div a img,
 .featured-stories div a img, 
 .survey div a img,
@@ -23,6 +84,77 @@ main {
 .topics-section > div > div > a img {
   width: 100%;
 }
+
+.top-story > div,
+.more-stories > div {
+  color: rgba(3,3,3,.4);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 0 5px;
+}
+
+.img-category {
+  position: relative;
+}
+
+.img-category div:first-child {
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #f72210;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 8px 15px 9px;
+}
+
+.top-story-title {
+  padding: 10px 0 5px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.top-story-title a {
+  color: black;
+}
+
+.top-story-title a:hover {
+  color: black;
+  text-decoration-line: underline;
+  text-decoration-color: #f72210;
+}
+
+.summary-text {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.more-stories article {
+  border-top: 1px solid #ddd;
+  padding: 15px 0;
+  min-height: 200px;
+}
+
+.more-stories div a img {
+  max-width: 260px;
+  float: left;
+  padding: 0 12px 12px 0;
+}
+
+.more-stories div a:hover {
+  text-decoration-color: #f72210;
+}
+
+.more-stories div a h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: black;
+}
+
+
+/* FOOTER SECTION */
 
 .footer-brand svg {
   width: 200px;
