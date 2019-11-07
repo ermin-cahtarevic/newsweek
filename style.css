@@ -308,6 +308,133 @@ button.bars-icon-button .bars-icon {
   line-height: 20px;
 }
 
+/* opinion section */
+
+.opinion > div {
+  height: 88px;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.opinion div.first-opinion {
+  border-top: none;
+}
+
+.opinion a.opinion-title {
+  text-decoration-line: none;
+}
+
+.opinion-title div {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin: 10px 0;
+}
+
+.opinion div a img {
+  float: left;
+  margin-right: 15px;
+}
+
+.opinion div a.opinion-article-title {
+  text-decoration-line: none;
+}
+
+.opinion div a.opinion-article-title h3 {
+  color: black;
+  margin-bottom: 0;
+}
+
+.opinion div a.opinion-article-title h3:hover {
+  color: #f72210;
+}
+
+.opinion-article-title h3 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.opinion div div div {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: rgb(85, 85, 85);
+}
+
+/* latest news section */
+
+.latest-news a.latest-news-title {
+  text-decoration-line: none;
+}
+
+.latest-news-title div {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin: 10px 0;
+}
+
+.latest-news > div {
+  height: 185px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.latest-news div.first-article-latest-news {
+  border-top: none;
+}
+
+.latest-news div a img {
+  max-width: 260px;
+  float: left;
+  padding-right: 15px;
+}
+
+.latest-news div a {
+  text-decoration-line: none;
+}
+
+.latest-news div a h3:hover {
+  color: #f72210;
+}
+
+.latest-news div a h3 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+  color: black;
+}
+
+/* newsletter section */
+
+div.newsletter {
+  max-width: 300px;
+  height: 161px;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  margin: 10px auto 30px;
+}
+
+.newsweek-icon {
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  float: left;
+}
+
+.newsletter-first-container {
+  height: 40px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #333;
+  padding: 0 20px;
+}
+
 /* FOOTER SECTION */
 
 .footer-brand svg {
