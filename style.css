@@ -271,6 +271,43 @@ button.bars-icon-button .bars-icon {
 
 /* sponsored */
 
+.sponsored > div {
+  padding: 15px 0;
+}
+
+.sponsored-img-container {
+  position: relative;
+}
+
+.sponsored-img-container div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255,.9);
+  color: #3581f4;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.sponsored-text-container {
+  border: 1px solid rgb(230, 230, 230);
+  color: #333;
+  padding: 20px;
+}
+
+.sponsored div.sponsored-text-container a {
+  color: black;
+  text-decoration-color: #f72210;
+}
+
+.sponsored-text-container a h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
 /* FOOTER SECTION */
 
 .footer-brand svg {
