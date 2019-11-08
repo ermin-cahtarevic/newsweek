@@ -732,6 +732,7 @@ display: inline-block;
 .topics-section-tech div div,
 .topics-section-culture div div,
 .topics-section-sports div div {
+  min-height: 105px;
   height: auto;
   border-bottom: 1px solid #ddd;
   margin-bottom: 10px;
@@ -832,7 +833,7 @@ display: inline-block;
   color: white;
   padding: 7px 10px;
   font-weight: 700;
-  margin: 30px auto 2px;
+  margin: 30px auto 15px;
 }
 
 .subscribe-section-subscribe div a div:hover,
@@ -916,4 +917,26 @@ display: inline-block;
 
 .footer-bottom > div ul {
   padding-left: 70px;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .subscribe-section-newsletter div.newsletter-img-container {
+    max-width: 190px;
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .subscribe-section-newsletter div img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    right: -30%;
+  }
+
+  .newsletter-text-container {
+    height: 210px;
+  }
 }
