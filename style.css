@@ -398,6 +398,7 @@ button.bars-icon-button .bars-icon {
 }
 
 .latest-news > div {
+  min-height: 110px;
   height: auto;
   border-top: 1px solid #ddd;
   padding-top: 10px;
@@ -831,7 +832,7 @@ display: inline-block;
   color: white;
   padding: 7px 10px;
   font-weight: 700;
-  margin: 30px auto 50px;
+  margin: 30px auto 2px;
 }
 
 .subscribe-section-subscribe div a div:hover,
@@ -843,10 +844,76 @@ display: inline-block;
   width: 100%;
 }
 
+.newsletter-text-container {
+  border: 1px solid rgb(235, 235, 235);
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
 /* FOOTER SECTION */
 
 .footer-brand svg {
-  width: 200px;
+  width: 236px;
   height: auto;
   fill: #f72210;
+}
+
+.footer-top > div div {
+  color: rgb(102, 102, 102);
+  font-size: 12px;
+  line-height: 12px;
+  padding: 10px 0;
+}
+
+.footer-icons a i {
+  color: rgb(102, 102, 102);
+  font-size: 26px;
+  padding: 5px;
+}
+
+.footer-icons a .facebook:hover {
+  color: rgb(59, 89, 152);
+}
+
+.footer-icons a .twitter:hover {
+  color: rgb(29, 161, 242);
+}
+
+.footer-icons a .instagram:hover {
+  color: rgb(64, 93, 230);
+}
+
+.footer-icons a .tumblr:hover {
+  color: rgb(53, 70, 92);
+}
+
+.footer-icons a .linkedin:hover {
+  color: rgb(0, 119, 181);
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  padding: 10px 0 20px;
+  margin-top: 10px;
+}
+
+.footer-bottom ul li a {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  line-height: 15px;
+  padding: 10px;
+}
+
+.footer-bottom ul li a:hover {
+  color: black;
+  text-decoration-line: none;
+}
+
+.footer-bottom > div div {
+  float: left;
+  margin-left: 10px;
+}
+
+.footer-bottom > div ul {
+  padding-left: 70px;
 }
