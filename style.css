@@ -85,7 +85,18 @@ button.bars-icon-button .bars-icon {
   font-size: 25px;
 }
 
+.navbar-collapse ul.navbar-nav li a {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+}
+
 /* MAIN SECTION */
+
+main div.main-wrapper {
+  max-width: 95%;
+}
 
 .img-container a img,
 .culture-travel div a img,
@@ -158,7 +169,7 @@ button.bars-icon-button .bars-icon {
 .more-stories article {
   border-top: 1px solid #ddd;
   padding: 15px 0;
-  min-height: auto;
+  min-height: 110px;
 }
 
 .more-stories div a img {
@@ -506,8 +517,6 @@ div.newsletter {
 
 /* magazine section */
 
-/* top magazine section */
-
 .magazine-section-title {
   margin-bottom: 15px;
 }
@@ -535,6 +544,12 @@ div.newsletter {
   color: #f72210;
   padding: 10px;
   z-index: 1;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.magazine-section-top div.magazine-section-top-wrapper {
+  padding-right: 0;
 }
 
 .magazine-article {
@@ -581,7 +596,7 @@ display: inline-block;
 
 .last-magazine-article .in-focus {
   position: absolute;
-  bottom: 46px;
+  bottom: 0;
   left: 0;
   background-color: #f72210;
   padding: 0 8px;
@@ -734,7 +749,7 @@ display: inline-block;
 .topics-section-sports div div {
   min-height: 105px;
   height: auto;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #d9d9d9;
   margin-bottom: 10px;
 }
 
@@ -755,7 +770,7 @@ display: inline-block;
 .topics-section-sports div div a img {
   max-width: 135px;
   float: left;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .topics-section-us div div a h3,
@@ -764,7 +779,7 @@ display: inline-block;
 .topics-section-tech div div a h3,
 .topics-section-culture div div a h3,
 .topics-section-sports div div a h3 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 21px;
   color: black;
@@ -788,8 +803,8 @@ display: inline-block;
   text-align: left;
 }
 
-.subscribe-img-container {
-  width: 260px;
+.subscribe-section div.subscribe-img-container {
+  max-width: 260px;
   height: 250px;
   margin: 15px auto 0;
   position: relative;
@@ -936,7 +951,50 @@ display: inline-block;
     right: -30%;
   }
 
+  .subscribe-section div.subscribe-img-container {
+    margin: 15px 10px 15px 0;
+  }
+
   .newsletter-text-container {
     height: 210px;
+  }
+
+  .magazine-section-title {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+
+  .sponsored div.sponsored-img-container,
+  .sponsored div.sponsored-text-container {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    padding-top: 0;
+  }
+
+  .nav-styling {
+    width: 100%;
+    height: 95px;
+  }
+
+  .nav-styling .navbar-brand svg {
+    width: 396px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.main-wrapper,
+  .nav-styling,
+  main div.main-wrapper,
+  footer div.main-wrapper {
+    max-width: 1300px;
+  }
+  .nav-styling {
+    display: block;
+    margin: 0 auto;
   }
 }
