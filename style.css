@@ -14,7 +14,7 @@ header.main-wrapper {
 
 header nav.nav-styling {
   background-color: #f72210;
-  height: 50px;
+  height: 55px;
 }
 
 .date {
@@ -1022,8 +1022,35 @@ display: inline-block;
     padding-bottom: 10px;
   }
 
-  .navbar-nav li {
-    padding: 0;
+  .navbar-collapse ul.navbar-nav {
+    border: none;
+  }
+
+  .navbar-collapse ul.navbar-nav li {
+    border-right: 1px solid #999;
+    margin: 10px 1px;
+  }
+
+  .navbar-collapse ul.navbar-nav li a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.85px;
+    padding: 5px 0;
+  }
+
+  .navbar-collapse ul.navbar-nav li a:hover {
+    color: #f72210;
+  }
+
+  .navbar-collapse ul li.search-bar {
+    font-size: 16px;
+    padding: 0 20px 0 10px;
+    border: none;
+  }
+
+  .search-bar form input {
+    max-width: 80px;
   }
 }
 
@@ -1033,9 +1060,5 @@ display: inline-block;
   main div.main-wrapper,
   footer div.main-wrapper {
     max-width: 1300px;
-  }
-  .nav-styling {
-    display: block;
-    margin: 0 auto;
   }
 }
