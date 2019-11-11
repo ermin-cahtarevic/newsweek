@@ -26,9 +26,6 @@ header nav.nav-styling {
 
 .nav-styling a.navbar-brand {
   padding: 5px 0 5px 5px;
-}
-
-.nav-styling a.navbar-brand {
   width: 120px;
   height: auto;
   fill: white;
@@ -74,16 +71,16 @@ header nav.nav-styling {
   padding-bottom: 2px;
 }
 
+button.bars-icon-button {
+  padding: 4px 7px;
+}
+
 .nav-right-wrapper button.bars-icon-button {
   border: none;
 }
 
 .nav-right-wrapper button.bars-icon-button:focus {
   outline: none;
-}
-
-button.bars-icon-button {
-  padding: 4px 7px;
 }
 
 button.bars-icon-button .bars-icon {
@@ -94,6 +91,85 @@ button.bars-icon-button .bars-icon {
 .navbar-collapse ul.navbar-nav {
   background-color: white;
   border-bottom: 1px solid rgb(121, 121, 121);
+}
+
+.top-story-title a {
+  color: black;
+}
+
+.culture-travel-title a {
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 10px 0;
+}
+
+.featured-stories div a {
+  text-decoration-color: #f72210;
+}
+
+.survey div a {
+  color: black;
+  text-decoration-color: #f72210;
+}
+
+.latest-news div a {
+  text-decoration-line: none;
+}
+
+.footer-bottom ul li a {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  line-height: 15px;
+  padding: 10px;
+}
+
+.top-story-title a:hover {
+  color: black;
+  text-decoration-line: underline;
+  text-decoration-color: #f72210;
+}
+
+.culture-travel-title a:hover {
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration-line: none;
+}
+
+.magazine-article > a:hover {
+  text-decoration-color: #f72210;
+}
+
+.editors-pick-article > a:hover {
+  text-decoration-color: #f72210;
+}
+
+.topics-section .topics-section-title a {
+  color: #f72210;
+  text-decoration-line: none;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.more-stories div a:hover {
+  text-decoration-color: #f72210;
+}
+
+.culture-travel div a:hover {
+  text-decoration-line: none;
+}
+
+.sponsored div.sponsored-text-container a {
+  color: black;
+  text-decoration-color: #f72210;
+}
+
+.slideshow-section div a:hover {
+  text-decoration-color: #f72210;
+}
+
+.topics-section div a:hover {
+  text-decoration-color: #f72210;
 }
 
 .navbar-collapse ul.navbar-nav li a {
@@ -122,6 +198,7 @@ main div.main-wrapper {
   max-width: 95%;
 }
 
+.subscribe-section-newsletter div img,
 .img-container a img,
 .culture-travel div a img,
 .featured-stories div a img,
@@ -130,7 +207,38 @@ main div.main-wrapper {
 .latest-news div a img,
 .magazine-section-top div a img,
 .magazine-section-bottom div a img,
-.editors-pick-section div a img,
+.editors-pick-section div a img {
+  width: 100%;
+}
+
+.more-stories div a img {
+  max-width: 135px;
+  float: left;
+  padding: 0 12px 12px 0;
+}
+
+.opinion div a img {
+  float: left;
+  margin-right: 15px;
+}
+
+.latest-news div a img {
+  max-width: 135px;
+  float: left;
+  margin-right: 15px;
+}
+
+.topics-section-us div div a img,
+.topics-section-world div div a img,
+.topics-section-business div div a img,
+.topics-section-tech div div a img,
+.topics-section-culture div div a img,
+.topics-section-sports div div a img {
+  max-width: 135px;
+  float: left;
+  margin-right: 10px;
+}
+
 .topics-section > div > div > a img,
 .slideshow-section div a:first-child img {
   width: 100%;
@@ -153,6 +261,186 @@ main div.main-wrapper {
   position: relative;
 }
 
+.culture-travel > div {
+  padding-top: 20px;
+}
+
+.featured-stories > div {
+  padding-top: 20px;
+}
+
+.first-a-tag div {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #f72210;
+}
+
+.sponsored > div {
+  padding: 15px 0;
+}
+
+.sponsored-img-container div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #3581f4;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.opinion > div {
+  min-height: auto;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.opinion-title div {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin: 10px 0;
+}
+
+.latest-news-title div {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin: 10px 0;
+}
+
+.latest-news > div {
+  min-height: 110px;
+  height: auto;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.newsletter-sign-up div {
+  background-color: #666;
+  display: inline-block;
+  height: 38px;
+  padding: 10px;
+  text-decoration-line: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 15px;
+}
+
+.newsletter-update div {
+  height: 18px;
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  margin-top: 10px;
+}
+
+.magazine-section-title div {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 19px;
+  color: #333;
+}
+
+.slideshow-section > div {
+  margin: 15px 0;
+}
+
+.magazine-article div > div {
+  background-color: #f72210;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: white;
+  padding: 0 8px;
+  margin: 10px 5px 10px 0;
+}
+
+.magazine-article > a div {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: black;
+}
+
+.topics-section-us div div,
+.topics-section-world div div,
+.topics-section-business div div,
+.topics-section-tech div div,
+.topics-section-culture div div,
+.topics-section-sports div div {
+  min-height: 105px;
+  height: auto;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 10px;
+}
+
+.subscribe-section-subscribe div > div,
+.subscribe-section-newsletter div > div {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.footer-top > div div {
+  color: rgb(102, 102, 102);
+  font-size: 12px;
+  line-height: 12px;
+  padding: 10px 0;
+}
+
+.footer-bottom > div div {
+  float: left;
+  margin-left: 10px;
+}
+
+.magazine-article div > div,
+.magazine-article div a div {
+  display: inline-block;
+}
+
+.magazine-article div a div {
+  color: #f72210;
+}
+
+.editors-pick-article div a div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 5px 15px;
+}
+
+.subscribe-section-subscribe div a div,
+.subscribe-section-newsletter div a div {
+  display: inline-block;
+  background-color: rgb(247, 34, 16);
+  color: white;
+  padding: 7px 10px;
+  font-weight: 700;
+  margin: 30px auto 15px;
+}
+
+.opinion div div div {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: rgb(85, 85, 85);
+}
+
 .img-category div:first-child {
   background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
@@ -172,23 +460,13 @@ main div.main-wrapper {
   line-height: 24px;
 }
 
-.top-story-title a {
-  color: black;
-}
-
-.top-story-title a:hover {
-  color: black;
-  text-decoration-line: underline;
-  text-decoration-color: #f72210;
-}
-
 .summary-text {
   color: #333;
   font-size: 13px;
   line-height: 18px;
 }
 
-/* more stories */ 
+/* more stories */
 
 .more-stories article {
   border-top: 1px solid #ddd;
@@ -196,14 +474,40 @@ main div.main-wrapper {
   min-height: 110px;
 }
 
-.more-stories div a img {
-  max-width: 135px;
-  float: left;
-  padding: 0 12px 12px 0;
+.opinion-article-title h3 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
 }
 
-.more-stories div a:hover {
-  text-decoration-color: #f72210;
+.survey a h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.sponsored-text-container a h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.editors-pick-article a h3 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: black;
+  padding: 10px 0;
+}
+
+.subscribe-section-subscribe div h3,
+.subscribe-section-newsletter div h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: black;
+  margin-top: 10px;
 }
 
 .more-stories div a h3 {
@@ -214,22 +518,6 @@ main div.main-wrapper {
 
 /* culture and travel */
 
-.culture-travel > div {
-  padding-top: 20px;
-}
-
-.culture-travel-title a {
-  color: rgba(3, 3, 3, 0.5);
-  font-size: 16px;
-  font-weight: 700;
-  padding: 10px 10px 0;
-}
-
-.culture-travel-title a:hover {
-  color: rgba(3, 3, 3, 0.5);
-  text-decoration-line: none;
-}
-
 .culture-travel div a h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
@@ -237,10 +525,6 @@ main div.main-wrapper {
   line-height: 22px;
   padding: 12px 10px 5px;
   color: rgb(39, 39, 39);
-}
-
-.culture-travel div a:hover {
-  text-decoration-line: none;
 }
 
 .c-t-text {
@@ -272,10 +556,6 @@ main div.main-wrapper {
   padding-top: 0;
 }
 
-.featured-stories > div {
-  padding-top: 20px;
-}
-
 .featured-stories div a h3 {
   color: black;
   font-size: 20px;
@@ -285,10 +565,6 @@ main div.main-wrapper {
   margin: 0;
 }
 
-.featured-stories div a {
-  text-decoration-color: #f72210;
-}
-
 /* survey section */
 
 .survey {
@@ -296,50 +572,14 @@ main div.main-wrapper {
   margin: 40px 0;
 }
 
-.first-a-tag div {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 1px;
-  color: #f72210;
-}
-
 .survey div .first-a-tag {
   text-decoration-line: none;
 }
 
-.survey a h3 {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
-  margin-top: 10px;
-}
-
-.survey div a {
-  color: black;
-  text-decoration-color: #f72210;
-}
-
 /* sponsored */
-
-.sponsored > div {
-  padding: 15px 0;
-}
 
 .sponsored-img-container {
   position: relative;
-}
-
-.sponsored-img-container div {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #3581f4;
-  font-size: 17px;
-  line-height: 16px;
-  font-weight: 700;
-  padding: 10px;
 }
 
 .sponsored-text-container {
@@ -348,24 +588,7 @@ main div.main-wrapper {
   padding: 20px;
 }
 
-.sponsored div.sponsored-text-container a {
-  color: black;
-  text-decoration-color: #f72210;
-}
-
-.sponsored-text-container a h3 {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
-}
-
 /* opinion section */
-
-.opinion > div {
-  min-height: auto;
-  padding: 10px 0;
-  border-top: 1px solid #ddd;
-}
 
 .opinion div.first-opinion {
   border-top: none;
@@ -375,86 +598,8 @@ main div.main-wrapper {
   text-decoration-line: none;
 }
 
-.opinion-title div {
-  color: rgba(3, 3, 3, 0.4);
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 16px;
-  margin: 10px 0;
-}
-
-.opinion div a img {
-  float: left;
-  margin-right: 15px;
-}
-
 .opinion div a.opinion-article-title {
   text-decoration-line: none;
-}
-
-.opinion div a.opinion-article-title h3 {
-  color: black;
-  margin-bottom: 0;
-}
-
-.opinion div a.opinion-article-title h3:hover {
-  color: #f72210;
-}
-
-.opinion-article-title h3 {
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 21px;
-}
-
-.opinion-article-text {
-  padding-left: 78px;
-}
-
-.opinion div div div {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 21px;
-  color: rgb(85, 85, 85);
-}
-
-/* latest news section */
-
-.latest-news a.latest-news-title {
-  text-decoration-line: none;
-}
-
-.latest-news-title div {
-  color: rgba(3, 3, 3, 0.4);
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 16px;
-  margin: 10px 0;
-}
-
-.latest-news > div {
-  min-height: 110px;
-  height: auto;
-  border-top: 1px solid #ddd;
-  padding-top: 10px;
-}
-
-.latest-news div.first-article-latest-news {
-  border-top: none;
-}
-
-.latest-news div a img {
-  max-width: 135px;
-  float: left;
-  margin-right: 15px;
-}
-
-.latest-news div a {
-  text-decoration-line: none;
-}
-
-.latest-news div a h3:hover {
-  color: #f72210;
 }
 
 .latest-news div a h3 {
@@ -463,6 +608,67 @@ main div.main-wrapper {
   line-height: 21px;
   color: black;
   margin-bottom: 15px;
+}
+
+.slideshow-section div a h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  color: black;
+  padding-top: 10px;
+}
+
+.topics-section-us > div > a h3,
+.topics-section-world > div > a h3,
+.topics-section-business > div > a h3,
+.topics-section-tech > div > a h3,
+.topics-section-culture > div > a h3,
+.topics-section-sports > div > a h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  color: black;
+  margin: 10px 0 25px;
+}
+
+.topics-section-us div div a h3,
+.topics-section-world div div a h3,
+.topics-section-business div div a h3,
+.topics-section-tech div div a h3,
+.topics-section-culture div div a h3,
+.topics-section-sports div div a h3 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21px;
+  color: black;
+  padding-left: 150px;
+}
+
+.opinion div a.opinion-article-title h3 {
+  color: black;
+  margin-bottom: 0;
+}
+
+.latest-news div a h3:hover {
+  color: #f72210;
+}
+
+.opinion div a.opinion-article-title h3:hover {
+  color: #f72210;
+}
+
+.opinion-article-text {
+  padding-left: 78px;
+}
+
+/* latest news section */
+
+.latest-news a.latest-news-title {
+  text-decoration-line: none;
+}
+
+.latest-news div.first-article-latest-news {
+  border-top: none;
 }
 
 /* newsletter section */
@@ -497,19 +703,6 @@ div.newsletter {
   padding: 0 20px;
 }
 
-.newsletter-sign-up div {
-  background-color: #666;
-  display: inline-block;
-  height: 38px;
-  padding: 10px;
-  text-decoration-line: none;
-  color: white;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 18px;
-  margin-top: 15px;
-}
-
 .newsletter-sign-up div:hover {
   background-color: #999;
   color: white;
@@ -525,15 +718,6 @@ div.newsletter {
   background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
 }
 
-.newsletter-update div {
-  height: 18px;
-  color: #333;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 15px;
-  margin-top: 10px;
-}
-
 .newsletter-update:hover {
   text-decoration-line: none;
   color: #333;
@@ -543,13 +727,6 @@ div.newsletter {
 
 .magazine-section-title {
   margin-bottom: 15px;
-}
-
-.magazine-section-title div {
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 19px;
-  color: #333;
 }
 
 .latest-issue {
@@ -578,36 +755,6 @@ div.newsletter {
 
 .magazine-article {
   margin-top: 25px;
-}
-
-.magazine-article div > div,
-.magazine-article div a div {
-display: inline-block;
-}
-
-.magazine-article div > div {
-  background-color: #f72210;
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 700;
-  color: white;
-  padding: 0 8px;
-  margin: 10px 5px 10px 0;
-}
-
-.magazine-article div a div {
-  color: #f72210;
-}
-
-.magazine-article > a div {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 16px;
-  color: black;
-}
-
-.magazine-article > a:hover {
-  text-decoration-color: #f72210;
 }
 
 .last-magazine-article {
@@ -658,35 +805,7 @@ display: inline-block;
   margin-bottom: 20px;
 }
 
-.editors-pick-article div a div {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #f72210;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 26px;
-  padding: 5px 15px;
-}
-
-.editors-pick-article a h3 {
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 700;
-  color: black;
-  padding: 10px 0;
-}
-
-.editors-pick-article > a:hover {
-  text-decoration-color: #f72210;
-}
-
 /* slideshow section */
-
-.slideshow-section > div {
-  margin: 15px 0;
-}
 
 .slideshow-section-title {
   max-width: 477px;
@@ -720,61 +839,12 @@ display: inline-block;
   color: #f72210;
 }
 
-.slideshow-section div a h3 {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 18px;
-  color: black;
-  padding-top: 10px;
-}
-
-.slideshow-section div a:hover {
-  text-decoration-color: #f72210;
-}
-
 /* topics section */
-
-.topics-section .topics-section-title a {
-  color: #f72210;
-  text-decoration-line: none;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 22px;
-}
 
 .topics-section-title {
   padding: 25px 0 11px;
   border-top: 1px solid #ddd;
   margin-top: 25px;
-}
-
-.topics-section-us > div > a h3,
-.topics-section-world > div > a h3,
-.topics-section-business > div > a h3,
-.topics-section-tech > div > a h3,
-.topics-section-culture > div > a h3,
-.topics-section-sports > div > a h3 {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 18px;
-  color: black;
-  margin: 10px 0 25px;
-}
-
-.topics-section div a:hover {
-  text-decoration-color: #f72210;
-}
-
-.topics-section-us div div,
-.topics-section-world div div,
-.topics-section-business div div,
-.topics-section-tech div div,
-.topics-section-culture div div,
-.topics-section-sports div div {
-  min-height: 105px;
-  height: auto;
-  border-bottom: 1px solid #d9d9d9;
-  margin-bottom: 10px;
 }
 
 .topics-section-us div div.topics-section-last-article,
@@ -784,30 +854,6 @@ display: inline-block;
 .topics-section-culture div div.topics-section-last-article,
 .topics-section-sports div div.topics-section-last-article {
   border-bottom: none;
-}
-
-.topics-section-us div div a img,
-.topics-section-world div div a img,
-.topics-section-business div div a img,
-.topics-section-tech div div a img,
-.topics-section-culture div div a img,
-.topics-section-sports div div a img {
-  max-width: 135px;
-  float: left;
-  margin-right: 10px;
-}
-
-.topics-section-us div div a h3,
-.topics-section-world div div a h3,
-.topics-section-business div div a h3,
-.topics-section-tech div div a h3,
-.topics-section-culture div div a h3,
-.topics-section-sports div div a h3 {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 21px;
-  color: black;
-  padding-left: 150px;
 }
 
 /* subscribe section */
@@ -849,39 +895,9 @@ display: inline-block;
   left: 85px;
 }
 
-.subscribe-section-subscribe div h3,
-.subscribe-section-newsletter div h3 {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 28px;
-  color: black;
-  margin-top: 10px;
-}
-
-.subscribe-section-subscribe div > div,
-.subscribe-section-newsletter div > div {
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 21px;
-}
-
-.subscribe-section-subscribe div a div,
-.subscribe-section-newsletter div a div {
-  display: inline-block;
-  background-color: rgb(247, 34, 16);
-  color: white;
-  padding: 7px 10px;
-  font-weight: 700;
-  margin: 30px auto 15px;
-}
-
 .subscribe-section-subscribe div a div:hover,
 .subscribe-section-newsletter div a div:hover {
   background-color: rgb(222, 31, 14);
-}
-
-.subscribe-section-newsletter div img {
-  width: 100%;
 }
 
 .newsletter-text-container {
@@ -896,13 +912,6 @@ display: inline-block;
   width: 236px;
   height: auto;
   fill: #f72210;
-}
-
-.footer-top > div div {
-  color: rgb(102, 102, 102);
-  font-size: 12px;
-  line-height: 12px;
-  padding: 10px 0;
 }
 
 .footer-icons a i {
@@ -937,21 +946,9 @@ display: inline-block;
   margin-top: 10px;
 }
 
-.footer-bottom ul li a {
-  color: rgb(102, 102, 102);
-  font-size: 14px;
-  line-height: 15px;
-  padding: 10px;
-}
-
 .footer-bottom ul li a:hover {
   color: black;
   text-decoration-line: none;
-}
-
-.footer-bottom > div div {
-  float: left;
-  margin-left: 10px;
 }
 
 .footer-bottom > div ul {
