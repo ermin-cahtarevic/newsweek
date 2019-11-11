@@ -14,7 +14,7 @@ Clone of Newsweek - Responsive Website
 ## About The Project
 
 
-URL to the live version of the project: [Newsweek Clone](https://raw.githack.com/ermin-cahtarevic/newsweek/developer-branch/index.html)
+URL to the live version of the project: [Newsweek Clone](https://rawcdn.githack.com/ermin-cahtarevic/newsweek/7a3f3e122276a3f0a5008a3b9866d224a2969815/index.html)
 
 This a rebuild of Newsweek responsive website. The rebuid was done using Bootstrap 4. The page used for reference is [Newsweek](https://www.newsweek.com/)
 
