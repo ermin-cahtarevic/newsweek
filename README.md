@@ -13,6 +13,13 @@ Clone of Newsweek - Responsive Website
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+### Desktop version
+
+![screenshot](./bootstrap-desktop.png)
+
+### Mobile version
+
+![screenshot](./newsweek-mobile.png)
 
 URL to the live version of the project: [Newsweek Clone](https://rawcdn.githack.com/ermin-cahtarevic/newsweek/7a3f3e122276a3f0a5008a3b9866d224a2969815/index.html)
 
